@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e41f8df94d777b49931c0c061dd5ad0, type: 3}
+  m_Name: Fish2
+  m_EditorClassIdentifier: 
+  leftMax: -8
+  rightMax: 7
+  depthMin: -5
+  depthMax: -8
+  chanceToSpawn: 50
+  initialSpeed: 2
+  chanceToGainSpeed: 34
+  rangeToSeeDecoy: 25
+  rangeToSlowNearDecoy: 4
+  rangeToPickDecoy: 0.5
+  deadSprite: {fileID: -2114686101538272709, guid: 77e62c9d8087d5245b072c3ee61d0577, type: 3}
+  levelOfFish: 0
+  minWeight: 0.58
+  maxWeight: 1.37
+  chanceToStruggle: 82
+  timeToRetryToStruggle: 8
+  minForce: 0.2
+  maxForce: 1.8
+  timeToChanceForce: 0.46
+  sizeOfTheGreenZone: 0.757
+  timeToBeFree: 6
+  timeToBeCatch: 3
+  timeBeforeBeAttractedByDecoy: 17
